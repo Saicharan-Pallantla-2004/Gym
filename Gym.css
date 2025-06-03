@@ -1,0 +1,214 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(1, 1, 17);
+    color: white;
+}
+nav 
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(1, 1, 17);
+    box-shadow: 0px 2px 6px 2px gray;
+    padding: 20px;
+}
+nav ul{
+    margin-right: 25px;
+    margin-top: 5px;
+}
+.logo{
+    margin-left: 15px;
+    font-size: 20px;
+}
+nav ul a{
+    margin-inline: 20px;
+    color: white;
+    text-decoration: none;
+}
+nav button{
+    width: 80px;
+    height: 25px;
+    background-color: rgb(4, 181, 4);
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+nav button:hover{
+    border: 2px solid rgb(2, 253, 2);
+    background-color: transparent;
+    color: white;
+}
+ul a:hover{
+    color: rgb(2, 253, 2);
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 180px;
+    top: 25%;
+}
+.main h1{
+    position: relative;
+    left: 10px;
+    top: -90px;
+    color: rgb(2, 253, 2);
+    font-size: 70px;
+    margin-top: 80px;
+}
+.main h2{
+    font-size: 35px;
+    margin-top: -90px;
+    margin-left: 10px;
+}
+.main p{
+    color: silver;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.main img{
+    position: relative;
+    top: -70px;
+    margin-bottom: 10px;
+    margin-left: -75px;
+}
+.main button{
+    align-self: center;
+    width: 140px;
+    height: 40px;
+    margin-top: 25px;
+    background-color: rgb(33, 34, 33);
+    color: white;
+    border: none;
+    margin-left: 100px;
+}
+#trainer1{
+    color: rgb(161, 90, 90);
+    font-size: 50px;
+}
+#b1,#b2,#b3
+{
+    border: none;
+    background-color: green;
+    height: 25px;
+    width: 100px;
+    color: white;
+}
+#b1:hover
+{
+    background-color: black;
+}
+#b2:hover
+{
+    background-color: black;
+}
+#b3:hover
+{
+    background-color: black;
+}
+#table1
+{
+    border-collapse: separate;
+    border-spacing: 75px;
+    margin-top: -75px;
+}
+#member1{
+    color: rgb(161, 90, 90);
+    font-size: 50px;
+}
+#lm1{
+    font-family: cursive;
+    font-size: large;
+}
+#im1{
+    font-family: cursive;
+    height: 25px;
+    width: 500px;
+    text-align: center;
+}
+#bm1{
+    border: none;
+    background-color: green;
+    height: 25px;
+    width: 100px;
+    color: white;
+}
+#bm1:hover{
+    background-color: black;
+}
+#ph1{
+    color: rgb(161, 90, 90);
+    font-size: 50px;
+}
+#pt1{
+    border-collapse: separate;
+    border-spacing: 75px;
+    margin-top: -75px;
+}
+#pb1,#pb2{
+    border: none;
+    background-color: green;
+    height: 25px;
+    width: 100px;
+    color: white;
+}
+#pb2
+{
+    margin-left: 25px;
+}
+#pb3{
+    border: none;
+    background-color: green;
+    height: 25px;
+    width: 120px;
+    color: white;
+    margin-left: 20px;
+}
+#k{
+    margin-top: -75px;
+    background-color:blanchedalmond;
+    height: 250px;
+    margin-top: 20px;
+    color: black;
+    margin-bottom: 250px;
+    margin-bottom: 500px;
+}
+#kt1{
+    border-collapse: separate;
+    border-spacing: 75px;
+}
+#ul1,#ul2{
+    color: black;
+}
+#h{
+    font-size: xx-large;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+button
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+#title
+{
+    font-size: xx-large;
+}
+#logo
+{
+    border-radius: 15px;
+    height: 25px;
+    width: 25px;
+}
+#top{
+    border: none;
+    background-color: green;
+    padding: 1%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 2%;
+    color: white;
+    border-radius: 75px;
+}
